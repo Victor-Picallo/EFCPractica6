@@ -1,9 +1,9 @@
 EJERCICIO 1: Análisis de Clase CarritoCompra
-Documente la clase CarritoCompra indicando:
-Complejidad algorítmica de cada método
-Marque como deprecado el método listarProductosTexto()
-Incluya documentación Javadoc para la clase y métodos
-java
+    - Documente la clase CarritoCompra indicando:
+    - Complejidad algorítmica de cada método
+    - Marque como deprecado el método listarProductosTexto()
+    - Incluya documentación Javadoc para la clase y métodos
+```
 import java.util.ArrayList;
 
 class Producto {
@@ -39,10 +39,11 @@ public class CarritoCompra {
         return sb.toString();
     }
 }
+```
 
-EJERCICIO 2: Optimización de Clase ProcesadorDatos
-Optimice los métodos marcados y justifique los cambios:
-java
+EJERCICIO 2: Optimización de Clase ProcesadorDatos:
+    - Optimice los métodos marcados y justifique los cambios:
+```
 import java.util.Arrays;
 
 public class ProcesadorDatos {
@@ -80,17 +81,17 @@ public class ProcesadorDatos {
         return modas;
     }
 }
+```
+EJERCICIO 3: Pruebas Unitarias:
+- Cree tests JUnit 5 para:
+    - contiene
+    - contarMayoresQue
+    - obtenerModa
 
-EJERCICIO 3: Pruebas Unitarias
-Cree tests JUnit 5 para:
-contiene
-contarMayoresQue
-obtenerModa
 
-
-EJERCICIO 4: Refactorización de Clase PersonajeJuego
+EJERCICIO 4: Refactorización de Clase PersonajeJuego:
 Mejore la estructura del código:
-java
+```
 public class PersonajeJuego {
     enum Tipo {GUERRERO, MAGO, ARQUERO}
     
@@ -124,4 +125,4 @@ public class PersonajeJuego {
         }
     }
 }
-
+```
